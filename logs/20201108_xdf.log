@@ -1,0 +1,15 @@
+223009.420998 [11300] [9060] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+223009.420998 [11300] [9060] <cmd> [I] 
+<command id="connect">
+	<login>TCNN9975</login>
+	<password>*</password>
+	<host>tr1-demo5.finam.ru</host>
+	<port>3939</port>
+	<language>en</language>
+	<rqdelay>20</rqdelay>
+	<milliseconds>false</milliseconds>
+	<utc_time>true</utc_time>
+</command>
+	
+223010.423021 [11300] [9060] <res> [R] <result success="true"/>
+223031.433081 [11300] [clbk] <info> [O] [4u] <server_status connected="error">Сервер не доступен</server_status>
