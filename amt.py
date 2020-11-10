@@ -9,6 +9,13 @@ from security import security
 # fixed expected return.
 
 def amt(user):
+	#---------------------------------------------------------#
+	# This function is a main menu of a programm - it shows   #
+	# a list of your portfolios, allows to delete and create  #
+	# new ones.                                               #
+	# params: user - dict                                     #
+	#---------------------------------------------------------#
+	
     print('')
 
     while(True):
@@ -36,6 +43,13 @@ def amt(user):
 
 # portfolio - list with chosen tickers, budget - int, portf_name - str
 def portfolio_menu(portfolio, budget, portf_name):
+	#---------------------------------------------------------#
+	# This function lists all assets of this portfolio, shows #
+	# key info such as expected return and risk of each asset #
+	# and the portfolio.                                      #
+	# params: portfolio - list, budget - int. portf_name - str#
+	#---------------------------------------------------------#
+
 	while(True):
 		print(f'\nPortfolio {portf_name}', end='')
 		

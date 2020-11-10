@@ -1,6 +1,0 @@
-
-
-Start logging 08/11/2020 22:30:10 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
-22:30:10.425 {3BC0} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
-22:30:31.433 {3BC0} Connection error #8.
-22:30:31.433 {3BC0} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0

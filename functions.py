@@ -1,8 +1,24 @@
 import json
 import ctypes
 import os
+from bs4 import BeautifulSoup
+
+path = os.getcwd()
+lib = ctypes.WinDLL(path+"\\assets\\connect.dll")
+lib.SendCommand.restype = ctypes.c_wchar_p
+
+def error_handling(msg):
+	# some xml parsing methods
+	
+	return 0
 
 def sign_in(user):
+	#---------------------------------------------------------#
+	# Function signs in user into his profile                 #
+	# params: user - dict                                     #
+	# returns: 1 if user found; 0 if there is no such user    #
+	#---------------------------------------------------------#
+	
     print('\nSign in\n')
     
     nickname = input('Enter your nickname: ')
@@ -26,6 +42,11 @@ def sign_in(user):
     return True
     
 def new_profile(user):
+	#---------------------------------------------------------#
+	# Function creates a new profile, simultaneously puts     #
+	# profile info into user var and into json file.          #
+	# params: user - dict;                                     #
+	#---------------------------------------------------------#
     print('\nCreating a new profile\n')
 
     with open('data\\users.json', mode='r', encoding='utf-8') as f:
@@ -71,6 +92,11 @@ def new_profile(user):
     print('\nProfile has been successfully created!\n') 
     
 def int_input():
+	#---------------------------------------------------------#
+	# Function helps prevent ValueError when int(input())     #
+	# is called                                               #
+	# returns: choice - int
+	#---------------------------------------------------------#
     while(True):
         try:
             print('Choose an option: ', end='')
@@ -82,6 +108,12 @@ def int_input():
     return choice
     
 def update_user_info(user):
+	#---------------------------------------------------------#
+	# Function is called each time there is an update to user #
+	# info.                                                   #
+	# params: user - dict                                     #
+	#---------------------------------------------------------#
+
 	with open('data\\users.json', mode='r', encoding='utf-8') as f:
 		users = json.load(f)
 		
@@ -92,35 +124,60 @@ def update_user_info(user):
 	with open('data\\users.json', mode='w', encoding='utf-8') as f:
 		users = json.dump(users, f, indent=2)
 
-def connection(login, password):
-	path = os.getcwd()
-	lib = ctypes.cdll.LoadLibrary(path+"\\assets\\connect.dll")
+def connection(login, password, address, port):
+	#---------------------------------------------------------#
+	# Function establishes connection with transaq, sets a    #
+	# callback function and connects to a server.             #
+	# params: login, password, address, port - str;           #
+	# returns: 0 if everything OK; 1 if there is a mistake    #
+	#---------------------------------------------------------#
+
+	log_path = '\"'+path+"\\logs\\"+'\"' # specifying the location of logs
+	log = f"<init log_path={log_path} log_level=\"2\" />"
+
+	status_init = lib.InitializeEx(log.encode()) # initialize the finam transaq
 	
-	log = "<init log_path={} log_level=\"2\" />".format('\"'+path+"\\logs\\"+'\"')
-
-	status_init = lib.InitializeEx(log.encode())
-
+	if (status_init != 0):
+		print('Error! Try again')
+		return -1
+	
+	status_callback = lib.SetCallback(callback)
+	
+	if (!suc):
+		print('Error! Try again')
+		lib.UnInitialize()
+		return -1
+	
+	login = 'TCNN9975'
+	password = 'v6RUG6'
+	address = 'tr1-demo5.finam.ru'
+	port = '3939'
+	
 	#<rqdelay> - delay between addressing to the server
-	connect = """
-<command id=\"connect\">
-	<login>TCNN9975</login>
-	<password>v6RUG6</password>
-	<host>tr1-demo5.finam.ru</host>
-	<port>3939</port>
-	<language>en</language>
-	<rqdelay>20</rqdelay>
-	<milliseconds>false</milliseconds>
-	<utc_time>true</utc_time>
-</command>
+	connect = f"""
+		<command id=\"connect\">
+			<login>{login}</login>
+			<password>{password}</password>
+			<host>{host}</host>
+			<port>{port}</port>
+			<language>en</language>
+			<rqdelay>20</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+		</command>
 	"""
-	lib.SendCommand.restype = ctypes.c_char_p
-
+	
 	status_connect = lib.SendCommand(connect.encode())
 	
-def exit():
-	path = os.getcwd()
-	lib = ctypes.cdll.LoadLibrary(path+"\\assets\\connect.dll")
+	return error_handling(status_connect)
 	
-	lib.SendCommand(b"<command id=\"disconnect\"/>")
+def exit():
+	#---------------------------------------------------------#
+	# Function is called when the program is terminated       #
+	#---------------------------------------------------------#
+	err = lib.SendCommand(b"<command id=\"disconnect\"/>")
+	error_handling(err)
 	
 	lib.UnInitialize()
+	
+	
