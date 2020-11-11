@@ -31,9 +31,13 @@ while(True):
 	address = input('Enter an address of a server: ')
 	port = input('Enter a port of a server: ')
 	
-	connection(login, password, address, port)
+	success = connection(login, password, address, port)
+	
+	if success == 1:
+		break
 
 while(True): # User section
+	print('')
 	print('1) Open list of your portfolios')
 	print('2) Exit')
 	

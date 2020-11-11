@@ -1,5 +1,6 @@
-from functions import int_input, update_user_info
+from functions import int_input, update_user_info, send_command
 from security import security
+
 # first, list all current portfolios, created by user
 # user can chose one of his current portfolios to see new info 
 # about his securities: individual expected returns and risks.
@@ -71,8 +72,8 @@ def portfolio_menu(portfolio, budget, portf_name):
 		
 		if choice == 1:
 			new_asset = input('Enter a ticker: ')
+			asset = security(new_asset)
 			
-			# check whether this security exists
 		elif choice == 2:
 			to_delete = input('Enter the ticker you wish to delete: ')
 		elif (choice == 3) and (am_assets > 0):

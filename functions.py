@@ -2,10 +2,40 @@ import json
 import ctypes
 import os
 from bs4 import BeautifulSoup
+from security import set_callback
 
 path = os.getcwd()
 lib = ctypes.WinDLL(path+"\\assets\\connect.dll")
-lib.SendCommand.restype = ctypes.c_wchar_p
+lib.SendCommand.restype = ctypes.POINTER(ctypes.c_char)
+lib.InitializeEx.restype = ctypes.POINTER(ctypes.c_char)
+
+def send_command(command):
+	#---------------------------------------------------------#
+	# Function sends a command to the server                  #
+	# params: command - str (xml)                             #
+	# returns: 0 if everything OK; 1 if there is a mistake    #
+	#---------------------------------------------------------#
+	
+	err_ptr = lib.SendCommand(command.encode())
+	err = error_handling(err_ptr)
+	
+	free_memory(err_ptr)
+	
+	# for a while
+	err = 0
+
+	return err
+
+def free_memory(ptr):
+	#---------------------------------------------------------#
+	# function simply clears memory from messages from server #
+	# params: ptr - ctypes.POINTER(ctypes.c_char)             #
+	#---------------------------------------------------------#
+
+	err = lib.FreeMemory(ptr)
+	
+	if not err:
+		raise SystemExit
 
 def error_handling(msg):
 	# some xml parsing methods
@@ -136,17 +166,15 @@ def connection(login, password, address, port):
 	log = f"<init log_path={log_path} log_level=\"2\" />"
 
 	status_init = lib.InitializeEx(log.encode()) # initialize the finam transaq
+
+	if bool(status_init):
+		print('Can\'t initialize library. Restart the application')
+		free_memory(status_init)
+		raise SystemExit
+		
+	free_memory(status_init)	
 	
-	if (status_init != 0):
-		print('Error! Try again')
-		return -1
-	
-	status_callback = lib.SetCallback(callback)
-	
-	if (!suc):
-		print('Error! Try again')
-		lib.UnInitialize()
-		return -1
+	set_callback()
 	
 	login = 'TCNN9975'
 	password = 'v6RUG6'
@@ -158,7 +186,7 @@ def connection(login, password, address, port):
 		<command id=\"connect\">
 			<login>{login}</login>
 			<password>{password}</password>
-			<host>{host}</host>
+			<host>{address}</host>
 			<port>{port}</port>
 			<language>en</language>
 			<rqdelay>20</rqdelay>
@@ -167,9 +195,7 @@ def connection(login, password, address, port):
 		</command>
 	"""
 	
-	status_connect = lib.SendCommand(connect.encode())
-	
-	return error_handling(status_connect)
+	return send_command(connect)	
 	
 def exit():
 	#---------------------------------------------------------#
