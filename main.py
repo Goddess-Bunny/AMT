@@ -1,4 +1,4 @@
-from functions import sign_in, new_profile, int_input, connection, exit
+from functions import sign_in, new_profile, int_input, connection, exit, send_command, read_callback
 from amt import amt
 
 user = {'nickname':'', 'name':'', 'last_name':'', 'portfolios':{}, 'budget':0}
@@ -32,12 +32,11 @@ while(True):
 	
 	success = connection(login, password, address, port)
 	
-	if success == 1:
+	if success == 0:
 		break
 
 while(True): # User section
-	print('')
-	print('1) Open list of your portfolios')
+	print('\n1) Open list of your portfolios')
 	print('2) Exit')
 	
 	choice = int_input()

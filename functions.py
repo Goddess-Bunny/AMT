@@ -1,6 +1,7 @@
 import json
 import ctypes
 import os
+import time
 from bs4 import BeautifulSoup
 
 path = os.getcwd()
@@ -12,24 +13,35 @@ dll_callback = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.POINTER(ctypes.c_char))
 
 @dll_callback
 def callback(msg):
-	# some xml parsing methods
-	global xml
-	
 	# --------- reading from callback ---------- #
 	i = 0
 	tmp = str()
 	
-	while msg[i] != '\0':
-		tmp = tmp + msg[i].decode()
-		
+	while True:
+		try:
+			tmp = tmp + msg[i].decode()
+		except UnicodeDecodeError: # found the end of msg
+			break
+		i+=1
+	
+	while tmp[i-1] != '>': # strip this string of some strange symbols (no idea where they come from)
+		i-=1
+	
+	tmp = tmp[:i]
+	
 	# -------------- freeing memory ------------ #
 	free_memory(msg)
 	
 	# -------- parsing callback message -------- #
-	clbk_xml = BeautifulSoup(tmp, 'xml')
-	print(clbk_xml)
+	with open('tmp\\callback.xml', mode='w', encoding='utf-8') as f:
+		f.write(tmp)
 	
 	return 0
+
+def read_callback():
+	#parse callback here
+	with open("tmp\\callback.xml", mode='r', encoding="utf-8") as f:
+		print(f.read())
 
 def send_command(command):
 	#---------------------------------------------------------#
@@ -218,21 +230,34 @@ def connection(login, password, address, port):
 			<host>{address}</host>
 			<port>{port}</port>
 			<language>en</language>
-			<rqdelay>20</rqdelay>
+			<rqdelay>10</rqdelay>
 			<milliseconds>false</milliseconds>
 			<utc_time>true</utc_time>
+			
 		</command>
 	"""
 	
-	return send_command(connect)	
+	err = send_command(connect)	
+	
+	time_0 = time.time()
+	print('Connecting...')
+	while time.time() - 10 < time_0: # wait to listen to all callback from connect
+		pass
+	
+	return error_handling(err)
 	
 def exit():
 	#---------------------------------------------------------#
 	# Function is called when the program is terminated       #
 	#---------------------------------------------------------#
-	err = lib.SendCommand(b"<command id=\"disconnect\"/>")
+	err = send_command("<command id=\"disconnect\"/>")
 	error_handling(err)
 	
-	lib.UnInitialize()
+	err = lib.UnInitialize()
 	
+	if bool(err) == True:
+		print('Failed to uninitialize. Forced to close the app')
+		raise SystemExit
 	
+	with open('tmp\\callback.xml', mode='w', encoding='utf-8') as f: # make callback.xml empty
+		pass

@@ -1,0 +1,956 @@
+
+
+Start logging 11/11/2020 04:43:14 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+04:43:14.097 {D74} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+04:43:14.220 {BA0} Trade Stream Closed. Reason: 'Destruct'. S:0/0, R:0/0, E:0, Rl:544498029
+
+
+Start logging 11/11/2020 04:45:00 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+04:45:00.323 {27E4} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+04:45:00.359 {293C} Trade Stream Closed. Reason: 'Destruct'. S:0/0, R:0/0, E:0, Rl:1547520084
+
+
+Start logging 11/11/2020 04:49:15 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+04:49:15.246 {1B34} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+
+Start logging 11/11/2020 04:51:54 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+04:51:54.753 {70C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+
+Start logging 11/11/2020 04:59:54 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+04:59:54.496 {32C0} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:00:15.544 {32C0} Connection error #8.
+05:00:15.552 {32C0} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:538976266
+
+
+Start logging 11/11/2020 05:00:36 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:00:36.385 {2728} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:00:36.414 {354} Trade Stream Closed. Reason: 'Destruct'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 11/11/2020 05:01:04 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:01:04.016 {1A70} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:01:25.059 {1A70} Connection error #8.
+05:01:25.059 {1A70} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:977484659
+
+
+Start logging 11/11/2020 05:02:13 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:02:13.856 {30C8} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:02:34.901 {30C8} Connection error #8.
+05:02:34.901 {30C8} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 11/11/2020 05:02:46 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:02:46.997 {1F5C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:02:47.028 {1B68} Trade Stream Closed. Reason: 'Destruct'. S:0/0, R:0/0, E:0, Rl:977484659
+
+
+Start logging 11/11/2020 05:03:53 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:03:53.972 {B74} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:04:15.021 {B74} Connection error #8.
+05:04:15.021 {B74} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:-1041563408
+
+
+Start logging 11/11/2020 05:04:21 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:04:21.769 {1BA8} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:04:42.826 {1BA8} Connection error #8.
+05:04:42.826 {1BA8} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 11/11/2020 05:29:23 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+05:29:23.424 {6AC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+05:29:44.466 {6AC} Connection error #8.
+05:29:44.466 {6AC} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 11/11/2020 10:00:50 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+10:00:50.781 {303C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+10:00:50.847 {303C} Connected.
+10:00:50.886 {303C} Session timeout 120000 ms.
+10:00:50.886 {303C} Request timeout 20000 ms.
+10:00:50.895 {303C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+10:00:50.900 {303C} Server time:11/11/2020 10:00:51, RQL:5, Diff*10:10
+10:00:50.916 {303C} Server time:11/11/2020 10:00:51, RQL:4, Diff*10:10
+10:00:51.037 {303C} Snapshot accepted
+10:00:51.048 {303C} Snapshot done. 
+10:01:09.844 {3BD0} Trade Stream Closed. Reason: 'Destruct'. S:5854/706, R:107756/721, E:0, Rl:0
+
+
+Start logging 11/11/2020 10:01:19 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+10:01:19.521 {3720} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+10:01:19.532 {3720} Connected.
+10:01:19.545 {3720} Session timeout 120000 ms.
+10:01:19.545 {3720} Request timeout 20000 ms.
+10:01:19.545 {3720} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+10:01:19.551 {3720} Server time:11/11/2020 10:01:19, RQL:6, Diff*10:0
+10:01:19.560 {3720} Server time:11/11/2020 10:01:19, RQL:4, Diff*10:0
+10:01:19.653 {3720} Snapshot accepted
+10:01:19.663 {3720} Snapshot done. 
+10:01:28.739 {3720} 
+RQ: 5
+SG: 130
+RD: <:54;
+E:10;W:2421;L:2441;
+E:10;W:3;L:1110;
+E:10;W:24;L:5097;
+E:10;W:6692;L:7936;
+E:10;W:380;L:17411;
+E:10;W:27;L:21980;
+E:10;W:4620;L:17085;
+E:10;W:26;L:23784;
+LFT: 0
+ 
+10:01:28.952 {3720} Trade Stream Closed. S:3081/358, R:102666/369, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 10:04:12 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+10:04:12.919 {2388} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+10:04:12.931 {2388} Connected.
+10:04:12.944 {2388} Session timeout 120000 ms.
+10:04:12.944 {2388} Request timeout 20000 ms.
+10:04:12.944 {2388} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+10:04:12.949 {2388} Server time:11/11/2020 10:04:13, RQL:5, Diff*10:10
+10:04:12.960 {2388} Server time:11/11/2020 10:04:13, RQL:6, Diff*10:10
+10:04:13.050 {2388} Snapshot accepted
+10:04:13.060 {2388} Snapshot done. 
+10:04:18.180 {2388} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+10:04:18.383 {2388} Trade Stream Closed. S:1898/210, R:100853/221, E:0, Rl:0
+
+
+Start logging 11/11/2020 10:07:46 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+10:07:46.710 {38B4} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+10:07:46.730 {38B4} Connected.
+10:07:46.743 {38B4} Session timeout 120000 ms.
+10:07:46.743 {38B4} Request timeout 20000 ms.
+10:07:46.743 {38B4} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+10:07:46.747 {38B4} Server time:11/11/2020 10:07:46, RQL:4, Diff*10:0
+10:07:46.756 {38B4} Server time:11/11/2020 10:07:46, RQL:4, Diff*10:0
+10:07:46.852 {38B4} Snapshot accepted
+10:07:46.862 {38B4} Snapshot done. 
+10:07:53.506 {38B4} 
+RQ: 5
+SG: 130
+RD: <:56;
+E:10;W:2437;L:11835;
+E:10;W:0;L:6624;
+E:10;W:4620;L:17034;
+E:10;W:27;L:22092;
+E:10;W:2;L:7704;
+E:10;W:380;L:17416;
+E:10;W:899;L:34895;
+E:10;W:11178;L:22958;
+LFT: 0
+ 
+10:07:53.708 {38B4} Trade Stream Closed. S:2274/257, R:101258/266, E:0, Rl:0
+
+
+Start logging 11/11/2020 18:39:40 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+18:39:40.132 {3F18} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+18:39:40.262 {3F18} Connected.
+18:39:40.298 {3F18} Session timeout 120000 ms.
+18:39:40.298 {3F18} Request timeout 20000 ms.
+18:39:40.298 {3F18} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+18:39:40.303 {3F18} Server time:11/11/2020 18:39:40, RQL:4, Diff*10:0
+18:39:40.314 {3F18} Server time:11/11/2020 18:39:40, RQL:4, Diff*10:0
+18:39:40.418 {3F18} Snapshot accepted
+18:39:40.428 {3F18} Snapshot done. 
+18:39:42.832 {3F18} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+18:39:43.034 {3F18} Trade Stream Closed. S:1358/143, R:99598/150, E:0, Rl:1397048412
+
+
+Start logging 11/11/2020 18:40:53 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+18:40:53.558 {3A88} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+18:40:53.576 {3A88} Connected.
+18:40:53.591 {3A88} Session timeout 120000 ms.
+18:40:53.592 {3A88} Request timeout 20000 ms.
+18:40:53.592 {3A88} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+18:40:53.597 {3A88} Server time:11/11/2020 18:40:54, RQL:4, Diff*10:10
+18:40:53.606 {3A88} Server time:11/11/2020 18:40:54, RQL:4, Diff*10:10
+18:40:53.710 {3A88} Snapshot accepted
+18:40:53.720 {3A88} Snapshot done. 
+18:40:55.383 {3830} Trade Stream Closed. Reason: 'Destruct'. S:1107/112, R:99065/121, E:0, Rl:0
+
+
+Start logging 11/11/2020 18:41:19 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+18:41:19.610 {3590} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+18:41:19.649 {3590} Connected.
+18:41:19.694 {3590} Session timeout 120000 ms.
+18:41:19.694 {3590} Request timeout 20000 ms.
+18:41:19.694 {3590} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+18:41:19.704 {3590} Server time:11/11/2020 18:41:20, RQL:9, Diff*10:10
+18:41:19.714 {3590} Server time:11/11/2020 18:41:20, RQL:4, Diff*10:10
+18:41:19.825 {3590} Snapshot accepted
+18:41:19.836 {3590} Snapshot done. 
+
+Start logging 11/11/2020 18:41:44 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+18:41:44.946 {1164} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+18:41:44.965 {1164} Connected.
+18:41:44.980 {1164} Session timeout 120000 ms.
+18:41:44.980 {1164} Request timeout 20000 ms.
+18:41:44.980 {1164} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+18:41:44.985 {1164} Server time:11/11/2020 18:41:45, RQL:5, Diff*10:10
+18:41:44.995 {1164} Server time:11/11/2020 18:41:45, RQL:4, Diff*10:10
+18:41:45.127 {1164} Snapshot accepted
+18:41:45.139 {1164} Snapshot done. 
+18:42:30.690 {578} Trade Stream Closed. Reason: 'Destruct'. S:21485/2660, R:120754/2671, E:0, Rl:0
+
+
+Start logging 11/11/2020 18:42:35 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+18:42:35.672 {314C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+18:42:35.689 {314C} Connected.
+18:42:35.704 {314C} Session timeout 120000 ms.
+18:42:35.704 {314C} Request timeout 20000 ms.
+18:42:35.704 {314C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+18:42:35.709 {314C} Server time:11/11/2020 18:42:36, RQL:4, Diff*10:10
+18:42:35.719 {314C} Server time:11/11/2020 18:42:36, RQL:4, Diff*10:10
+18:42:35.813 {314C} Snapshot accepted
+18:42:35.822 {314C} Snapshot done. 
+18:43:46.520 {314C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+18:43:46.731 {314C} Trade Stream Closed. S:33579/4171, R:133242/4179, E:0, Rl:6619251
+
+
+Start logging 11/11/2020 18:46:31 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+18:46:31.895 {3490} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+18:46:31.925 {3490} Connected.
+18:46:31.944 {3490} Session timeout 120000 ms.
+18:46:31.944 {3490} Request timeout 20000 ms.
+18:46:31.944 {3490} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+18:46:31.949 {3490} Server time:11/11/2020 18:46:32, RQL:5, Diff*10:10
+18:46:31.957 {3490} Server time:11/11/2020 18:46:32, RQL:3, Diff*10:10
+18:46:32.046 {3490} Snapshot accepted
+18:46:32.056 {3490} Snapshot done. 
+19:18:17.460 {3490} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:18:17.663 {3490} Trade Stream Closed. S:932893/116586, R:1038875/116596, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:24:10 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:24:10.481 {3C9C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:24:10.510 {3C9C} Connected.
+19:24:10.527 {3C9C} Session timeout 120000 ms.
+19:24:10.527 {3C9C} Request timeout 20000 ms.
+19:24:10.527 {3C9C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:24:10.532 {3C9C} Server time:11/11/2020 19:24:11, RQL:5, Diff*10:10
+19:24:10.542 {3C9C} Server time:11/11/2020 19:24:11, RQL:5, Diff*10:10
+19:24:10.663 {3C9C} Snapshot accepted
+19:24:10.673 {3C9C} Snapshot done. 
+19:25:38.816 {3C9C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:25:39.027 {3C9C} Trade Stream Closed. S:42339/5266, R:140878/5276, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:25:43 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:25:43.916 {2028} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:25:43.933 {2028} Connected.
+19:25:43.947 {2028} Session timeout 120000 ms.
+19:25:43.947 {2028} Request timeout 20000 ms.
+19:25:43.947 {2028} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:25:43.952 {2028} Server time:11/11/2020 19:25:44, RQL:5, Diff*10:10
+19:25:43.962 {2028} Server time:11/11/2020 19:25:44, RQL:5, Diff*10:10
+19:25:44.069 {2028} Snapshot accepted
+19:25:44.079 {2028} Snapshot done. 
+19:27:13.084 {2028} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:27:13.289 {2028} Trade Stream Closed. S:43337/5390, R:142433/5399, E:0, Rl:6029370
+
+
+Start logging 11/11/2020 19:27:17 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:27:17.554 {303C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:27:17.566 {303C} Connected.
+19:27:17.578 {303C} Session timeout 120000 ms.
+19:27:17.579 {303C} Request timeout 20000 ms.
+19:27:17.579 {303C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:27:17.583 {303C} Server time:11/11/2020 19:27:18, RQL:4, Diff*10:10
+19:27:17.592 {303C} Server time:11/11/2020 19:27:18, RQL:3, Diff*10:10
+19:27:17.675 {303C} Snapshot accepted
+19:27:17.685 {303C} Snapshot done. 
+19:27:35.920 {23B4} Trade Stream Closed. Reason: 'Destruct'. S:9069/1108, R:107173/1123, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:27:49 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:27:49.590 {1224} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:27:49.608 {1224} Connected.
+19:27:49.625 {1224} Session timeout 120000 ms.
+19:27:49.625 {1224} Request timeout 20000 ms.
+19:27:49.625 {1224} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:27:49.630 {1224} Server time:11/11/2020 19:27:50, RQL:5, Diff*10:10
+19:27:49.639 {1224} Server time:11/11/2020 19:27:50, RQL:3, Diff*10:10
+19:27:49.740 {1224} Snapshot accepted
+19:27:49.750 {1224} Snapshot done. 
+19:29:07.823 {1224} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:29:08.037 {1224} Trade Stream Closed. S:39263/4882, R:137676/4889, E:0, Rl:167264256
+
+
+Start logging 11/11/2020 19:29:13 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:29:13.223 {37B8} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:29:13.248 {37B8} Connected.
+19:29:13.264 {37B8} Session timeout 120000 ms.
+19:29:13.264 {37B8} Request timeout 20000 ms.
+19:29:13.264 {37B8} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:29:13.269 {37B8} Server time:11/11/2020 19:29:13, RQL:5, Diff*10:0
+19:29:13.279 {37B8} Server time:11/11/2020 19:29:13, RQL:4, Diff*10:0
+19:29:13.375 {37B8} Snapshot accepted
+19:29:13.385 {37B8} Snapshot done. 
+19:29:31.759 {37B8} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:29:31.960 {37B8} Trade Stream Closed. S:9035/1103, R:107023/1114, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 19:29:39 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:29:39.359 {4EC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:29:39.376 {4EC} Connected.
+19:29:39.392 {4EC} Session timeout 120000 ms.
+19:29:39.392 {4EC} Request timeout 20000 ms.
+19:29:39.392 {4EC} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:29:39.397 {4EC} Server time:11/11/2020 19:29:39, RQL:4, Diff*10:0
+19:29:39.408 {4EC} Server time:11/11/2020 19:29:39, RQL:5, Diff*10:0
+19:29:39.513 {4EC} Snapshot accepted
+19:29:39.523 {4EC} Snapshot done. 
+19:33:47.955 {4EC} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:33:48.163 {4EC} Trade Stream Closed. S:120176/14995, R:220214/15005, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:33:53 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:33:53.324 {3460} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:33:53.342 {3460} Connected.
+19:33:53.357 {3460} Session timeout 120000 ms.
+19:33:53.357 {3460} Request timeout 20000 ms.
+19:33:53.357 {3460} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:33:53.362 {3460} Server time:11/11/2020 19:33:53, RQL:4, Diff*10:0
+19:33:53.372 {3460} Server time:11/11/2020 19:33:53, RQL:4, Diff*10:0
+19:33:53.477 {3460} Snapshot accepted
+19:33:53.488 {3460} Snapshot done. 
+19:35:09.479 {3460} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:35:09.685 {3460} Trade Stream Closed. S:37701/4685, R:136077/4697, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:35:14 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:35:14.717 {2DE0} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:35:14.743 {2DE0} Connected.
+19:35:14.758 {2DE0} Session timeout 120000 ms.
+19:35:14.758 {2DE0} Request timeout 20000 ms.
+19:35:14.758 {2DE0} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:35:14.762 {2DE0} Server time:11/11/2020 19:35:15, RQL:3, Diff*10:10
+19:35:14.772 {2DE0} Server time:11/11/2020 19:35:15, RQL:4, Diff*10:10
+19:35:14.866 {2DE0} Snapshot accepted
+19:35:14.876 {2DE0} Snapshot done. 
+19:35:56.820 {2DE0} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:35:57.031 {2DE0} Trade Stream Closed. S:21034/2602, R:119134/2613, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:36:02 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:36:02.808 {3E7C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:36:02.826 {3E7C} Connected.
+19:36:02.841 {3E7C} Session timeout 120000 ms.
+19:36:02.842 {3E7C} Request timeout 20000 ms.
+19:36:02.842 {3E7C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:36:02.847 {3E7C} Server time:11/11/2020 19:36:03, RQL:5, Diff*10:10
+19:36:02.858 {3E7C} Server time:11/11/2020 19:36:03, RQL:4, Diff*10:10
+19:36:02.944 {3E7C} Snapshot accepted
+19:36:02.954 {3E7C} Snapshot done. 
+19:36:07.209 {3E7C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:36:07.416 {3E7C} Trade Stream Closed. S:2381/271, R:100304/282, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:36:52 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:36:52.678 {3088} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:36:52.695 {3088} Connected.
+19:36:52.708 {3088} Session timeout 120000 ms.
+19:36:52.708 {3088} Request timeout 20000 ms.
+19:36:52.709 {3088} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:36:52.713 {3088} Server time:11/11/2020 19:36:53, RQL:4, Diff*10:10
+19:36:52.725 {3088} Server time:11/11/2020 19:36:53, RQL:3, Diff*10:10
+19:36:52.812 {3088} Snapshot accepted
+19:36:52.822 {3088} Snapshot done. 
+19:38:08.806 {3088} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+19:38:09.013 {3088} Trade Stream Closed. S:38287/4759, R:136756/4769, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 19:38:13 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:38:13.567 {3424} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:38:13.585 {3424} Connected.
+19:38:13.600 {3424} Session timeout 120000 ms.
+19:38:13.600 {3424} Request timeout 20000 ms.
+19:38:13.600 {3424} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:38:13.605 {3424} Server time:11/11/2020 19:38:14, RQL:5, Diff*10:10
+19:38:13.614 {3424} Server time:11/11/2020 19:38:14, RQL:4, Diff*10:10
+19:38:13.714 {3424} Snapshot accepted
+19:38:13.724 {3424} Snapshot done. 
+19:38:50.176 {2D6C} Trade Stream Closed. Reason: 'Destruct'. S:17532/2164, R:115621/2173, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:39:24 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:39:24.956 {355C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:39:24.974 {355C} Connected.
+19:39:24.989 {355C} Session timeout 120000 ms.
+19:39:24.989 {355C} Request timeout 20000 ms.
+19:39:24.989 {355C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:39:24.994 {355C} Server time:11/11/2020 19:39:25, RQL:5, Diff*10:10
+19:39:25.004 {355C} Server time:11/11/2020 19:39:25, RQL:5, Diff*10:10
+19:39:25.093 {355C} Snapshot accepted
+19:39:25.103 {355C} Snapshot done. 
+19:40:06.150 {3D20} Trade Stream Closed. Reason: 'Destruct'. S:19662/2432, R:117830/2443, E:0, Rl:0
+
+
+Start logging 11/11/2020 19:40:14 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+19:40:14.117 {3FD4} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+19:40:14.135 {3FD4} Connected.
+19:40:14.150 {3FD4} Session timeout 120000 ms.
+19:40:14.150 {3FD4} Request timeout 20000 ms.
+19:40:14.150 {3FD4} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+19:40:14.155 {3FD4} Server time:11/11/2020 19:40:14, RQL:5, Diff*10:0
+19:40:14.175 {3FD4} Server time:11/11/2020 19:40:14, RQL:4, Diff*10:0
+19:40:14.269 {3FD4} Snapshot accepted
+19:40:14.279 {3FD4} Snapshot done. 
+19:42:12.243 {2940} Trade Stream Closed. Reason: 'Destruct'. S:54093/6736, R:152779/6748, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 20:35:23 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:35:23.518 {13C0} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:35:23.544 {13C0} Connected.
+20:35:23.566 {13C0} Session timeout 120000 ms.
+20:35:23.566 {13C0} Request timeout 20000 ms.
+20:35:23.566 {13C0} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:35:23.571 {13C0} Server time:11/11/2020 20:35:24, RQL:5, Diff*10:10
+20:35:23.580 {13C0} Server time:11/11/2020 20:35:24, RQL:4, Diff*10:10
+20:35:23.666 {13C0} Snapshot accepted
+20:35:23.676 {13C0} Snapshot done. 
+20:35:29.005 {3D4C} Trade Stream Closed. Reason: 'Destruct'. S:2505/287, R:100454/299, E:0, Rl:0
+
+
+Start logging 11/11/2020 20:35:49 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:35:49.840 {39EC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:35:49.852 {39EC} Connected.
+20:35:49.866 {39EC} Session timeout 120000 ms.
+20:35:49.866 {39EC} Request timeout 20000 ms.
+20:35:49.866 {39EC} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:35:49.870 {39EC} Server time:11/11/2020 20:35:50, RQL:4, Diff*10:10
+20:35:49.889 {39EC} Server time:11/11/2020 20:35:50, RQL:8, Diff*10:10
+20:35:49.974 {39EC} Snapshot accepted
+20:35:49.985 {39EC} Snapshot done. 
+20:38:01.820 {3B5C} Trade Stream Closed. Reason: 'Destruct'. S:61817/7700, R:160450/7710, E:0, Rl:0
+
+
+Start logging 11/11/2020 20:38:06 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:38:06.482 {3B10} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:38:06.500 {3B10} Connected.
+20:38:06.512 {3B10} Session timeout 120000 ms.
+20:38:06.512 {3B10} Request timeout 20000 ms.
+20:38:06.512 {3B10} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:38:06.517 {3B10} Server time:11/11/2020 20:38:07, RQL:4, Diff*10:10
+20:38:06.525 {3B10} Server time:11/11/2020 20:38:07, RQL:3, Diff*10:10
+20:38:06.620 {3B10} Snapshot accepted
+20:38:06.630 {3B10} Snapshot done. 
+20:38:10.704 {39A0} Trade Stream Closed. Reason: 'Destruct'. S:2237/252, R:100142/262, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 20:42:55 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:42:55.033 {1DFC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:42:55.054 {1DFC} Connected.
+20:42:55.069 {1DFC} Session timeout 120000 ms.
+20:42:55.069 {1DFC} Request timeout 20000 ms.
+20:42:55.069 {1DFC} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:42:55.078 {1DFC} Server time:11/11/2020 20:42:55, RQL:9, Diff*10:0
+20:42:55.086 {1DFC} Server time:11/11/2020 20:42:55, RQL:3, Diff*10:0
+20:42:55.168 {1DFC} Snapshot accepted
+20:42:55.178 {1DFC} Snapshot done. 
+20:43:11.874 {F98} Trade Stream Closed. Reason: 'Destruct'. S:8133/990, R:106091/1006, E:0, Rl:0
+
+
+Start logging 11/11/2020 20:43:17 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:43:17.064 {17FC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:43:17.076 {17FC} Connected.
+20:43:17.088 {17FC} Session timeout 120000 ms.
+20:43:17.089 {17FC} Request timeout 20000 ms.
+20:43:17.089 {17FC} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:43:17.093 {17FC} Server time:11/11/2020 20:43:17, RQL:4, Diff*10:0
+20:43:17.102 {17FC} Server time:11/11/2020 20:43:17, RQL:3, Diff*10:0
+20:43:17.202 {17FC} Snapshot accepted
+20:43:17.212 {17FC} Snapshot done. 
+20:45:36.138 {2924} Trade Stream Closed. Reason: 'Destruct'. S:64326/8015, R:162932/8025, E:0, Rl:1954107484
+
+
+Start logging 11/11/2020 20:45:41 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:45:41.602 {30A4} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:45:41.619 {30A4} Connected.
+20:45:41.636 {30A4} Session timeout 120000 ms.
+20:45:41.636 {30A4} Request timeout 20000 ms.
+20:45:41.636 {30A4} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:45:41.640 {30A4} Server time:11/11/2020 20:45:42, RQL:4, Diff*10:10
+20:45:41.649 {30A4} Server time:11/11/2020 20:45:42, RQL:4, Diff*10:10
+20:45:41.739 {30A4} Snapshot accepted
+20:45:41.749 {30A4} Snapshot done. 
+20:47:14.510 {3B2C} Trade Stream Closed. Reason: 'Destruct'. S:42649/5304, R:141144/5316, E:0, Rl:0
+
+
+Start logging 11/11/2020 20:51:34 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:51:34.198 {28F0} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+20:51:34.224 {28F0} Connected.
+20:51:34.236 {28F0} Session timeout 120000 ms.
+20:51:34.236 {28F0} Request timeout 20000 ms.
+20:51:34.236 {28F0} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+20:51:34.241 {28F0} Server time:11/11/2020 20:51:34, RQL:4, Diff*10:0
+20:51:34.251 {28F0} Server time:11/11/2020 20:51:34, RQL:5, Diff*10:0
+20:51:34.356 {28F0} Snapshot accepted
+20:51:34.372 {28F0} Snapshot done. 
+21:20:20.346 {13C0} Trade Stream Closed. Reason: 'Destruct'. S:869444/108653, R:974038/108660, E:0, Rl:0
+
+
+Start logging 11/11/2020 21:20:28 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+21:20:28.121 {3C50} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+21:20:28.151 {3C50} Connected.
+21:20:28.167 {3C50} Session timeout 120000 ms.
+21:20:28.168 {3C50} Request timeout 20000 ms.
+21:20:28.168 {3C50} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+21:20:28.173 {3C50} Server time:11/11/2020 21:20:28, RQL:5, Diff*10:0
+21:20:28.184 {3C50} Server time:11/11/2020 21:20:28, RQL:5, Diff*10:0
+21:20:28.275 {3C50} Snapshot accepted
+21:20:28.285 {3C50} Snapshot done. 
+21:28:16.352 {2D04} Trade Stream Closed. Reason: 'Destruct'. S:235407/29399, R:335562/29412, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 21:28:21 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+21:28:21.881 {38F8} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+21:28:21.902 {38F8} Connected.
+21:28:21.926 {38F8} Session timeout 120000 ms.
+21:28:21.926 {38F8} Request timeout 20000 ms.
+21:28:21.926 {38F8} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+21:28:21.930 {38F8} Server time:11/11/2020 21:28:22, RQL:4, Diff*10:10
+21:28:21.939 {38F8} Server time:11/11/2020 21:28:22, RQL:4, Diff*10:10
+21:28:22.033 {38F8} Snapshot accepted
+21:28:22.043 {38F8} Snapshot done. 
+21:28:28.850 {3384} Trade Stream Closed. Reason: 'Destruct'. S:3415/400, R:101352/412, E:0, Rl:0
+
+
+Start logging 11/11/2020 21:28:54 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+21:28:54.893 {297C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+21:28:54.911 {297C} Connected.
+21:28:54.927 {297C} Session timeout 120000 ms.
+21:28:54.928 {297C} Request timeout 20000 ms.
+21:28:54.928 {297C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+21:28:54.932 {297C} Server time:11/11/2020 21:28:55, RQL:4, Diff*10:10
+21:28:54.941 {297C} Server time:11/11/2020 21:28:55, RQL:4, Diff*10:10
+21:28:55.029 {297C} Snapshot accepted
+21:28:55.039 {297C} Snapshot done. 
+21:45:10.838 {297C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+21:45:11.046 {297C} Trade Stream Closed. S:489776/61195, R:591554/61208, E:0, Rl:0
+
+
+Start logging 11/11/2020 22:12:46 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:12:46.521 {345C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:12:46.549 {345C} Connected.
+22:12:46.567 {345C} Session timeout 120000 ms.
+22:12:46.567 {345C} Request timeout 20000 ms.
+22:12:46.567 {345C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:12:46.571 {345C} Server time:11/11/2020 22:12:47, RQL:4, Diff*10:10
+22:12:46.583 {345C} Server time:11/11/2020 22:12:47, RQL:4, Diff*10:10
+22:12:46.680 {345C} Snapshot accepted
+22:12:46.690 {345C} Snapshot done. 
+22:13:13.989 {345C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:13:14.203 {345C} Trade Stream Closed. S:14134/1741, R:112033/1751, E:0, Rl:0
+
+
+Start logging 11/11/2020 22:13:19 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:13:19.660 {365C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:13:19.671 {365C} Connected.
+22:13:19.685 {365C} Session timeout 120000 ms.
+22:13:19.685 {365C} Request timeout 20000 ms.
+22:13:19.685 {365C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:13:19.690 {365C} Server time:11/11/2020 22:13:20, RQL:5, Diff*10:10
+22:13:19.704 {365C} Server time:11/11/2020 22:13:20, RQL:9, Diff*10:10
+22:13:19.795 {365C} Snapshot accepted
+22:13:19.805 {365C} Snapshot done. 
+22:18:41.244 {365C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:18:41.452 {365C} Trade Stream Closed. S:162018/20225, R:259917/20232, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 22:52:06 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:52:06.989 {3B64} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:52:07.008 {3B64} Connected.
+22:52:07.024 {3B64} Session timeout 120000 ms.
+22:52:07.024 {3B64} Request timeout 20000 ms.
+22:52:07.024 {3B64} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:52:07.029 {3B64} Server time:11/11/2020 22:52:07, RQL:5, Diff*10:0
+22:52:07.038 {3B64} Server time:11/11/2020 22:52:07, RQL:4, Diff*10:0
+22:52:07.123 {3B64} Snapshot accepted
+22:52:07.133 {3B64} Snapshot done. 
+22:52:54.041 {3B64} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:52:54.249 {3B64} Trade Stream Closed. S:23640/2928, R:121539/2938, E:0, Rl:1230462010
+
+
+Start logging 11/11/2020 22:52:58 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:52:58.686 {2C94} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:52:58.700 {2C94} Connected.
+22:52:58.711 {2C94} Session timeout 120000 ms.
+22:52:58.711 {2C94} Request timeout 20000 ms.
+22:52:58.712 {2C94} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:52:58.717 {2C94} Server time:11/11/2020 22:52:59, RQL:5, Diff*10:10
+22:52:58.726 {2C94} Server time:11/11/2020 22:52:59, RQL:3, Diff*10:10
+22:52:58.820 {2C94} Snapshot accepted
+22:52:58.831 {2C94} Snapshot done. 
+22:54:34.577 {2C94} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:54:34.786 {2C94} Trade Stream Closed. S:48518/6038, R:146417/6048, E:0, Rl:0
+
+
+Start logging 11/11/2020 22:54:40 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:54:40.640 {3160} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:54:40.654 {3160} Connected.
+22:54:40.671 {3160} Session timeout 120000 ms.
+22:54:40.671 {3160} Request timeout 20000 ms.
+22:54:40.671 {3160} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:54:40.676 {3160} Server time:11/11/2020 22:54:41, RQL:5, Diff*10:10
+22:54:40.686 {3160} Server time:11/11/2020 22:54:41, RQL:5, Diff*10:10
+22:54:40.775 {3160} Snapshot accepted
+22:54:40.785 {3160} Snapshot done. 
+22:55:41.675 {3160} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:55:41.880 {3160} Trade Stream Closed. S:30778/3821, R:128677/3830, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 22:55:52 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:55:52.957 {2798} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:55:52.975 {2798} Connected.
+22:55:52.991 {2798} Session timeout 120000 ms.
+22:55:52.991 {2798} Request timeout 20000 ms.
+22:55:52.991 {2798} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:55:52.996 {2798} Server time:11/11/2020 22:55:53, RQL:4, Diff*10:10
+22:55:53.005 {2798} Server time:11/11/2020 22:55:53, RQL:3, Diff*10:0
+22:55:53.093 {2798} Snapshot accepted
+22:55:53.103 {2798} Snapshot done. 
+22:58:57.988 {2798} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:58:58.201 {2798} Trade Stream Closed. S:93902/11712, R:191801/11723, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 22:59:06 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:59:06.580 {2E78} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:59:06.609 {2E78} Connected.
+22:59:06.624 {2E78} Session timeout 120000 ms.
+22:59:06.624 {2E78} Request timeout 20000 ms.
+22:59:06.624 {2E78} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:59:06.629 {2E78} Server time:11/11/2020 22:59:07, RQL:4, Diff*10:10
+22:59:06.644 {2E78} Server time:11/11/2020 22:59:07, RQL:4, Diff*10:10
+22:59:06.728 {2E78} Snapshot accepted
+22:59:06.739 {2E78} Snapshot done. 
+22:59:27.512 {2E78} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+22:59:27.720 {2E78} Trade Stream Closed. S:10694/1310, R:108593/1322, E:0, Rl:0
+
+
+Start logging 11/11/2020 22:59:33 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+22:59:33.731 {233C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+22:59:33.751 {233C} Connected.
+22:59:33.768 {233C} Session timeout 120000 ms.
+22:59:33.768 {233C} Request timeout 20000 ms.
+22:59:33.768 {233C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+22:59:33.778 {233C} Server time:11/11/2020 22:59:34, RQL:9, Diff*10:10
+22:59:33.786 {233C} Server time:11/11/2020 22:59:34, RQL:4, Diff*10:10
+22:59:33.878 {233C} Snapshot accepted
+22:59:33.888 {233C} Snapshot done. 
+23:03:38.809 {233C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:03:39.021 {233C} Trade Stream Closed. S:124373/15519, R:222272/15530, E:0, Rl:7471207
+
+
+Start logging 11/11/2020 23:03:44 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:03:44.983 {1C14} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:03:44.994 {1C14} Connected.
+23:03:45.006 {1C14} Session timeout 120000 ms.
+23:03:45.006 {1C14} Request timeout 20000 ms.
+23:03:45.006 {1C14} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:03:45.010 {1C14} Server time:11/11/2020 23:03:45, RQL:4, Diff*10:0
+23:03:45.021 {1C14} Server time:11/11/2020 23:03:45, RQL:6, Diff*10:0
+23:03:45.103 {1C14} Snapshot accepted
+23:03:45.113 {1C14} Snapshot done. 
+23:04:35.571 {1C14} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:04:35.777 {1C14} Trade Stream Closed. S:25472/3158, R:123371/3170, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 23:04:40 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:04:40.244 {3B90} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:04:40.266 {3B90} Connected.
+23:04:40.277 {3B90} Session timeout 120000 ms.
+23:04:40.277 {3B90} Request timeout 20000 ms.
+23:04:40.277 {3B90} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:04:40.290 {3B90} Server time:11/11/2020 23:04:40, RQL:12, Diff*10:0
+23:04:40.298 {3B90} Server time:11/11/2020 23:04:40, RQL:3, Diff*10:0
+23:04:40.396 {3B90} Snapshot accepted
+23:04:40.406 {3B90} Snapshot done. 
+23:06:49.767 {3B90} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:06:49.977 {3B90} Trade Stream Closed. S:65553/8168, R:163452/8177, E:0, Rl:0
+
+
+Start logging 11/11/2020 23:06:54 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:06:54.869 {95C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:06:54.882 {95C} Connected.
+23:06:54.895 {95C} Session timeout 120000 ms.
+23:06:54.895 {95C} Request timeout 20000 ms.
+23:06:54.895 {95C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:06:54.900 {95C} Server time:11/11/2020 23:06:55, RQL:4, Diff*10:10
+23:06:54.909 {95C} Server time:11/11/2020 23:06:55, RQL:3, Diff*10:10
+23:06:55.003 {95C} Snapshot accepted
+23:06:55.013 {95C} Snapshot done. 
+23:11:17.031 {95C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:11:17.238 {95C} Trade Stream Closed. S:132762/16569, R:230661/16581, E:0, Rl:7471207
+
+
+Start logging 11/11/2020 23:11:21 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:11:21.834 {2F34} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:11:21.860 {2F34} Connected.
+23:11:21.874 {2F34} Session timeout 120000 ms.
+23:11:21.874 {2F34} Request timeout 20000 ms.
+23:11:21.874 {2F34} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:11:21.878 {2F34} Server time:11/11/2020 23:11:22, RQL:4, Diff*10:10
+23:11:21.897 {2F34} Server time:11/11/2020 23:11:22, RQL:8, Diff*10:10
+23:11:21.993 {2F34} Snapshot accepted
+23:11:22.003 {2F34} Snapshot done. 
+23:13:43.383 {2F34} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:13:43.592 {2F34} Trade Stream Closed. S:71367/8895, R:169266/8902, E:0, Rl:0
+
+
+Start logging 11/11/2020 23:13:48 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:13:48.355 {31FC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:13:48.369 {31FC} Connected.
+23:13:48.384 {31FC} Session timeout 120000 ms.
+23:13:48.384 {31FC} Request timeout 20000 ms.
+23:13:48.384 {31FC} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:13:48.388 {31FC} Server time:11/11/2020 23:13:48, RQL:4, Diff*10:0
+23:13:48.399 {31FC} Server time:11/11/2020 23:13:48, RQL:4, Diff*10:0
+23:13:48.488 {31FC} Snapshot accepted
+23:13:48.498 {31FC} Snapshot done. 
+23:17:37.184 {31FC} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:17:37.390 {31FC} Trade Stream Closed. S:115795/14448, R:213694/14460, E:0, Rl:0
+
+
+Start logging 11/11/2020 23:17:42 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:17:42.646 {297C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:17:42.674 {297C} Connected.
+23:17:42.690 {297C} Session timeout 120000 ms.
+23:17:42.690 {297C} Request timeout 20000 ms.
+23:17:42.690 {297C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:17:42.694 {297C} Server time:11/11/2020 23:17:43, RQL:4, Diff*10:10
+23:17:42.705 {297C} Server time:11/11/2020 23:17:43, RQL:6, Diff*10:10
+23:17:42.796 {297C} Snapshot accepted
+23:17:42.806 {297C} Snapshot done. 
+23:19:31.460 {297C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:19:31.670 {297C} Trade Stream Closed. S:55354/6893, R:153253/6903, E:0, Rl:0
+
+
+Start logging 11/11/2020 23:19:36 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:19:36.750 {190C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:19:36.771 {190C} Connected.
+23:19:36.783 {190C} Session timeout 120000 ms.
+23:19:36.783 {190C} Request timeout 20000 ms.
+23:19:36.783 {190C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:19:36.788 {190C} Server time:11/11/2020 23:19:37, RQL:4, Diff*10:10
+23:19:36.796 {190C} Server time:11/11/2020 23:19:37, RQL:3, Diff*10:10
+23:19:36.883 {190C} Snapshot accepted
+23:19:36.893 {190C} Snapshot done. 
+23:19:43.042 {34C8} Trade Stream Closed. Reason: 'Destruct'. S:3176/370, R:101083/380, E:0, Rl:0
+
+
+Start logging 11/11/2020 23:20:50 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:20:50.634 {3EFC} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:20:50.645 {3EFC} Connected.
+23:20:50.657 {3EFC} Session timeout 120000 ms.
+23:20:50.657 {3EFC} Request timeout 20000 ms.
+23:20:50.657 {3EFC} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:20:50.662 {3EFC} Server time:11/11/2020 23:20:51, RQL:4, Diff*10:10
+23:20:50.670 {3EFC} Server time:11/11/2020 23:20:51, RQL:3, Diff*10:10
+23:20:50.753 {3EFC} Snapshot accepted
+23:20:50.764 {3EFC} Snapshot done. 
+23:21:26.682 {3EFC} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:21:26.896 {3EFC} Trade Stream Closed. S:17920/2213, R:115819/2224, E:0, Rl:0
+
+
+Start logging 11/11/2020 23:21:31 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:21:31.339 {1040} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:21:31.350 {1040} Connected.
+23:21:31.362 {1040} Session timeout 120000 ms.
+23:21:31.362 {1040} Request timeout 20000 ms.
+23:21:31.362 {1040} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:21:31.367 {1040} Server time:11/11/2020 23:21:31, RQL:4, Diff*10:0
+23:21:31.382 {1040} Server time:11/11/2020 23:21:31, RQL:4, Diff*10:0
+23:21:31.472 {1040} Snapshot accepted
+23:21:31.482 {1040} Snapshot done. 
+23:22:13.078 {1040} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:22:13.281 {1040} Trade Stream Closed. S:21168/2619, R:119067/2630, E:0, Rl:1766677619
+
+
+Start logging 11/11/2020 23:23:32 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:23:32.244 {16F4} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:23:32.270 {16F4} Connected.
+23:23:32.282 {16F4} Session timeout 120000 ms.
+23:23:32.282 {16F4} Request timeout 20000 ms.
+23:23:32.282 {16F4} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:23:32.286 {16F4} Server time:11/11/2020 23:23:32, RQL:4, Diff*10:0
+23:23:32.304 {16F4} Server time:11/11/2020 23:23:32, RQL:4, Diff*10:0
+23:23:32.390 {16F4} Snapshot accepted
+23:23:32.400 {16F4} Snapshot done. 
+23:24:02.356 {16F4} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:24:02.561 {16F4} Trade Stream Closed. S:15339/1890, R:113238/1896, E:0, Rl:7471207
+
+
+Start logging 11/11/2020 23:24:07 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+23:24:07.468 {92C} Connecting to tr1-demo5.finam.ru:3939 buf=65512...
+23:24:07.487 {92C} Connected.
+23:24:07.511 {92C} Session timeout 120000 ms.
+23:24:07.511 {92C} Request timeout 20000 ms.
+23:24:07.511 {92C} SYS# 617 BLD# 30 SRV# 0 UID# 8184
+23:24:07.516 {92C} Server time:11/11/2020 23:24:08, RQL:5, Diff*10:10
+23:24:07.529 {92C} Server time:11/11/2020 23:24:08, RQL:8, Diff*10:10
+23:24:07.621 {92C} Snapshot accepted
+23:24:07.631 {92C} Snapshot done. 
+23:24:23.479 {92C} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:24:23.691 {92C} Trade Stream Closed. S:7932/965, R:105831/973, E:0, Rl:0
