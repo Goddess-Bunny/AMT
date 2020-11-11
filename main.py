@@ -1,4 +1,3 @@
-import security as sc
 from functions import sign_in, new_profile, int_input, connection, exit
 from amt import amt
 

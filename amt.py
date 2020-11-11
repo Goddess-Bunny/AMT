@@ -42,7 +42,6 @@ def amt(user):
         else:
             print('Incorrect input\n')
 
-# portfolio - list with chosen tickers, budget - int, portf_name - str
 def portfolio_menu(portfolio, budget, portf_name):
 	#---------------------------------------------------------#
 	# This function lists all assets of this portfolio, shows #
@@ -67,6 +66,9 @@ def portfolio_menu(portfolio, budget, portf_name):
 		if am_assets > 0:
 			print('3) Optimize portfolio weights')
 			print('4) Assign weights manually')
+			print('5) Return to portfolio menu')
+		else:
+			print('3) Return to portfolio menu')
 		
 		choice = int_input()
 		
@@ -78,8 +80,12 @@ def portfolio_menu(portfolio, budget, portf_name):
 			to_delete = input('Enter the ticker you wish to delete: ')
 		elif (choice == 3) and (am_assets > 0):
 			print('optimize')
+		elif (choice == 3) and (am_assets == 0):
+			break
 		elif (choice == 4) and (am_assets > 0):
 			print('manual')
+		elif (choice == 5) and (am_assets > 0):
+			break
 		else:
 			print('Incorrect input')
     

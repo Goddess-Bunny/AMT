@@ -2,12 +2,34 @@ import json
 import ctypes
 import os
 from bs4 import BeautifulSoup
-from security import set_callback
 
 path = os.getcwd()
 lib = ctypes.WinDLL(path+"\\assets\\connect.dll")
 lib.SendCommand.restype = ctypes.POINTER(ctypes.c_char)
 lib.InitializeEx.restype = ctypes.POINTER(ctypes.c_char)
+
+dll_callback = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.POINTER(ctypes.c_char))
+
+@dll_callback
+def callback(msg):
+	# some xml parsing methods
+	global xml
+	
+	# --------- reading from callback ---------- #
+	i = 0
+	tmp = str()
+	
+	while msg[i] != '\0':
+		tmp = tmp + msg[i].decode()
+		
+	# -------------- freeing memory ------------ #
+	free_memory(msg)
+	
+	# -------- parsing callback message -------- #
+	clbk_xml = BeautifulSoup(tmp, 'xml')
+	print(clbk_xml)
+	
+	return 0
 
 def send_command(command):
 	#---------------------------------------------------------#
@@ -162,6 +184,7 @@ def connection(login, password, address, port):
 	# returns: 0 if everything OK; 1 if there is a mistake    #
 	#---------------------------------------------------------#
 
+	# ------------------ Initializing transaq ----------------------- #
 	log_path = '\"'+path+"\\logs\\"+'\"' # specifying the location of logs
 	log = f"<init log_path={log_path} log_level=\"2\" />"
 
@@ -174,8 +197,14 @@ def connection(login, password, address, port):
 		
 	free_memory(status_init)	
 	
-	set_callback()
+	# ----------- Setting callback function ------------------------- #
+	err = lib.SetCallback(callback)
 	
+	if not err:
+		print('Error! Restart the application')
+		raise SystemExit
+	
+	# -------------- logging in ------------------------------------- #
 	login = 'TCNN9975'
 	password = 'v6RUG6'
 	address = 'tr1-demo5.finam.ru'
