@@ -1,30 +1,24 @@
 from bs4 import BeautifulSoup
-from functions import send_command, free_memory, read_callback, error_handling
+from functions import list_of_tickers
 
-availiable_tickers = []
-
-def list_of_tickers(arr):
-	#---------------------------------------------------------#
-	# Function pulls a list of all tickers on market.         #
-	# params: arr - list                                      #
-	#---------------------------------------------------------#
-
-	err = send_command(r'<command id="get_securities" />')
-	
-	if err:
-		raise SystemExit
-		
-	xml = read_callback()
-	
-	
+available_tickers = []
 
 class security(object):
 	name = str()
+	exp_ret = 0
+	exp_risk = 0
 
 	def __init__(self, name):
+		global available_tickers
+		
+		if len(available_tickers) == 0:
+			available_tickers = list_of_tickers()
+		
+		if name not in available_tickers:
+			raise ValueError
 		self.name = name
 		
-		
+	
 	
 	
 			

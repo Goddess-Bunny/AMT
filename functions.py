@@ -11,6 +11,29 @@ lib.InitializeEx.restype = ctypes.POINTER(ctypes.c_char)
 
 dll_callback = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.POINTER(ctypes.c_char))
 
+def historical_info(name):
+	#---------------------------------------------------------#
+	# Function pulls historical info for specified security   #
+	# params: name - str                                      #
+	#---------------------------------------------------------#
+	pass
+	
+def list_of_tickers():
+	#---------------------------------------------------------#
+	# Function pulls a list of all tickers on exchange.       #
+	# params: arr - list                                      #
+	#---------------------------------------------------------#
+
+	err = send_command(r'<command id="get_securities" />')
+	
+	if err:
+		raise SystemExit
+		
+	xml = read_callback()
+	seccodes = xml.securities.find_all('seccode')
+	
+	return [name.string for name in seccodes]
+	
 @dll_callback
 def callback(msg):
 	# --------- reading from callback ---------- #
@@ -40,8 +63,15 @@ def callback(msg):
 
 def read_callback():
 	#parse callback here
+	time_0 = time.time()
+	
+	while time.time() - 5 < time_0: # wait to listen to callback
+		pass
+	
 	with open("tmp\\callback.xml", mode='r', encoding="utf-8") as f:
-		print(f.read())
+		xml = BeautifulSoup(f, 'xml')
+		
+	return xml
 
 def send_command(command):
 	#---------------------------------------------------------#
@@ -241,7 +271,7 @@ def connection(login, password, address, port):
 	
 	time_0 = time.time()
 	print('Connecting...')
-	while time.time() - 10 < time_0: # wait to listen to all callback from connect
+	while time.time() - 3 < time_0: # wait to listen to all callback from connect
 		pass
 	
 	return error_handling(err)

@@ -3,8 +3,11 @@
     "name": "sergey",
     "last_name": "postnov",
     "portfolios": {
-      "sergey": [],
-      "polina": []
+      "polina": {
+		"candle_period_id":4
+		"am_candles":10
+		"assets":[]
+	  }
     },
     "budget": 20000
   }

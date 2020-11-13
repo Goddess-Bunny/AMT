@@ -1,0 +1,522 @@
+220452.490316 [1612] [12892] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+220452.518359 [1612] [12892] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+220453.585875 [1612] [12892] <res> [R] <result success="true"/>
+220458.623607 [1612] [clbk] <info> [O] [112018u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+220458.717547 [1612] [clbk] <info> [O] [90929u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+220458.825483 [1612] [clbk] <info> [O] [107779u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+220501.007138 [1612] [clbk] <info> [O] [76943u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+220508.724775 [1612] [12892] <cmd> [I] <command id="disconnect"/>
+220509.129287 [1612] [12892] <res> [R] <result success="true"/>
+220509.129287 [1612] [clbk] <info> [O] [1102u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+220512.992276 [14960] [9600] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+220512.992276 [14960] [9600] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+220513.997157 [14960] [9600] <res> [R] <result success="true"/>
+220519.049038 [14960] [clbk] <info> [O] [109760u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+220519.160970 [14960] [clbk] <info> [O] [111649u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+220519.240922 [14960] [clbk] <info> [O] [79796u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+220521.595469 [14960] [clbk] <info> [O] [93919u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+220523.997989 [14960] [9600] <cmd> [I] <command id="get_securities" />
+220523.997989 [14960] [9600] <res> [R] <result success="true"/>
+220536.966551 [14960] [9600] <cmd> [I] <command id="disconnect"/>
+220537.179257 [14960] [9600] <res> [R] <result success="true"/>
+220537.180258 [14960] [clbk] <info> [O] [1215u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+223649.385186 [2324] [9368] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+223649.385186 [2324] [9368] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+223650.400345 [2324] [9368] <res> [R] <result success="true"/>
+223654.800638 [2324] [clbk] <info> [O] [35058u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+223654.952544 [2324] [clbk] <info> [O] [151622u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+223655.034494 [2324] [clbk] <info> [O] [81877u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+223656.327696 [2324] [clbk] <info> [O] [77781u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+223816.367045 [16392] [6252] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+223816.367045 [16392] [6252] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+223817.376392 [16392] [6252] <res> [R] <result success="true"/>
+223822.531211 [16392] [clbk] <info> [O] [93809u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+223822.643142 [16392] [clbk] <info> [O] [111704u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+223822.734086 [16392] [clbk] <info> [O] [90718u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+223825.047658 [16392] [clbk] <info> [O] [75906u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+223828.726943 [16392] [6252] <cmd> [I] <command id="disconnect"/>
+223828.937262 [16392] [6252] <res> [R] <result success="true"/>
+223828.937262 [16392] [clbk] <info> [O] [1069u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+223832.584760 [1816] [16312] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+223832.585759 [1816] [16312] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+223833.589054 [1816] [16312] <res> [R] <result success="true"/>
+223838.788855 [1816] [clbk] <info> [O] [79900u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+223838.866808 [1816] [clbk] <info> [O] [77655u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+223838.978738 [1816] [clbk] <info> [O] [111786u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+223841.242342 [1816] [clbk] <info> [O] [111936u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+223849.731777 [1816] [16312] <cmd> [I] <command id="get_securities" />
+223849.732782 [1816] [16312] <res> [R] <result success="true"/>
+223948.082134 [6856] [8108] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+223948.083131 [6856] [8108] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+223949.094561 [6856] [8108] <res> [R] <result success="true"/>
+223954.178432 [6856] [clbk] <info> [O] [126765u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+223954.258385 [6856] [clbk] <info> [O] [79702u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+223954.352325 [6856] [clbk] <info> [O] [93782u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+223956.796821 [6856] [clbk] <info> [O] [111898u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224002.287204 [6856] [8108] <cmd> [I] <command id="disconnect"/>
+224002.493735 [6856] [8108] <res> [R] <result success="true"/>
+224002.493735 [6856] [clbk] <info> [O] [1048u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+224005.553182 [10580] [5156] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224005.553182 [10580] [5156] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224006.564308 [10580] [5156] <res> [R] <result success="true"/>
+224006.822384 [10580] [clbk] <info> [O] [362u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224006.823383 [10580] [clbk] <info> [O] [396u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224006.823383 [10580] [clbk] <info> [O] [321u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224006.833375 [10580] [clbk] <info> [O] [327u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224013.940597 [10580] [5156] <cmd> [I] <command id="get_securities" />
+224013.940597 [10580] [5156] <res> [R] <result success="true"/>
+224124.729443 [9876] [16872] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224124.729443 [9876] [16872] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224125.737356 [9876] [16872] <res> [R] <result success="true"/>
+224128.785483 [9876] [clbk] <info> [O] [369u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224128.785483 [9876] [clbk] <info> [O] [406u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224128.786483 [9876] [clbk] <info> [O] [339u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224128.795476 [9876] [clbk] <info> [O] [317u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224134.982980 [9876] [16872] <cmd> [I] <command id="get_securities" />
+224134.983985 [9876] [16872] <res> [R] <result success="true"/>
+224308.853758 [9572] [17012] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224308.853758 [9572] [17012] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224309.869804 [9572] [17012] <res> [R] <result success="true"/>
+224312.915933 [9572] [clbk] <info> [O] [509u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224312.916931 [9572] [clbk] <info> [O] [589u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224312.917930 [9572] [clbk] <info> [O] [359u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224312.926924 [9572] [clbk] <info> [O] [320u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224318.360652 [9572] [17012] <cmd> [I] <command id="get_securities" />
+224318.361656 [9572] [17012] <res> [R] <result success="true"/>
+224344.646448 [5824] [11784] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224344.646448 [5824] [11784] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224345.657562 [5824] [11784] <res> [R] <result success="true"/>
+224348.703680 [5824] [11784] <cmd> [I] <command id="disconnect"/>
+224348.705684 [5824] [clbk] <info> [O] [635u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224348.705684 [5824] [clbk] <info> [O] [522u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224348.706686 [5824] [clbk] <info> [O] [342u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224348.716672 [5824] [clbk] <info> [O] [324u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224348.923349 [5824] [11784] <res> [R] <result success="true"/>
+224348.923349 [5824] [clbk] <info> [O] [1079u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+224353.208380 [12644] [9008] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224353.208380 [12644] [9008] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224354.219522 [12644] [9008] <res> [R] <result success="true"/>
+224357.266650 [12644] [clbk] <info> [O] [346u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224357.267650 [12644] [clbk] <info> [O] [445u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224357.268649 [12644] [clbk] <info> [O] [480u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224357.277641 [12644] [clbk] <info> [O] [354u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224403.446295 [12644] [9008] <cmd> [I] <command id="get_securities" />
+224403.447299 [12644] [9008] <res> [R] <result success="true"/>
+224515.578425 [1248] [5024] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224515.579424 [1248] [5024] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224516.581196 [1248] [5024] <res> [R] <result success="true"/>
+224519.630323 [1248] [clbk] <info> [O] [379u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224519.630323 [1248] [clbk] <info> [O] [402u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224519.631323 [1248] [clbk] <info> [O] [346u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224519.640315 [1248] [clbk] <info> [O] [314u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224533.084853 [1248] [5024] <cmd> [I] <command id="get_securities" />
+224533.085857 [1248] [5024] <res> [R] <result success="true"/>
+224652.252964 [10060] [1500] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224652.252964 [10060] [1500] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224653.257906 [10060] [1500] <res> [R] <result success="true"/>
+224656.293039 [10060] [1500] <cmd> [I] <command id="disconnect"/>
+224656.305032 [10060] [clbk] <info> [O] [349u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224656.306032 [10060] [clbk] <info> [O] [559u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224656.307031 [10060] [clbk] <info> [O] [387u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224656.316025 [10060] [clbk] <info> [O] [316u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224656.497365 [10060] [1500] <res> [R] <result success="true"/>
+224656.498363 [10060] [clbk] <info> [O] [1080u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+224700.469895 [9576] [14180] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+224700.469895 [9576] [14180] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+224701.478079 [9576] [14180] <res> [R] <result success="true"/>
+224704.526213 [9576] [clbk] <info> [O] [324u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+224704.527207 [9576] [clbk] <info> [O] [395u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+224704.527207 [9576] [clbk] <info> [O] [330u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+224704.537199 [9576] [clbk] <info> [O] [327u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+224712.963795 [9576] [14180] <cmd> [I] <command id="get_securities" />
+224712.963795 [9576] [14180] <res> [R] <result success="true"/>
+224729.866660 [9576] [14180] <cmd> [I] <command id="disconnect"/>
+224730.075556 [9576] [14180] <res> [R] <result success="true"/>
+224730.075556 [9576] [clbk] <info> [O] [1117u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+225652.122215 [1860] [13632] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+225652.122215 [1860] [13632] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+225653.125715 [1860] [13632] <res> [R] <result success="true"/>
+225656.160896 [1860] [13632] <cmd> [I] <command id="disconnect"/>
+225656.173888 [1860] [clbk] <info> [O] [344u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+225656.173888 [1860] [clbk] <info> [O] [415u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+225656.174888 [1860] [clbk] <info> [O] [337u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+225656.183883 [1860] [clbk] <info> [O] [331u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+225656.368776 [1860] [13632] <res> [R] <result success="true"/>
+225656.368776 [1860] [clbk] <info> [O] [1061u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+225701.662837 [8984] [6488] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+225701.663835 [8984] [6488] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+225702.665942 [8984] [6488] <res> [R] <result success="true"/>
+225705.713065 [8984] [clbk] <info> [O] [331u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+225705.714064 [8984] [clbk] <info> [O] [471u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+225705.714064 [8984] [clbk] <info> [O] [338u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+225705.724057 [8984] [clbk] <info> [O] [346u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+225716.757016 [8984] [6488] <cmd> [I] <command id="get_securities" />
+225716.758020 [8984] [6488] <res> [R] <result success="true"/>
+225730.510908 [10772] [15368] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+225730.510908 [10772] [15368] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+225731.519914 [10772] [15368] <res> [R] <result success="true"/>
+225734.567042 [10772] [clbk] <info> [O] [329u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+225734.568041 [10772] [clbk] <info> [O] [387u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+225734.568041 [10772] [clbk] <info> [O] [322u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+225734.577035 [10772] [clbk] <info> [O] [312u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+225921.688025 [10772] [15368] <cmd> [I] <command id="disconnect"/>
+225921.891741 [10772] [15368] <res> [R] <result success="true"/>
+225921.891741 [10772] [clbk] <info> [O] [1090u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+225925.527603 [6656] [12688] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+225925.528602 [6656] [12688] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+225926.536915 [6656] [12688] <res> [R] <result success="true"/>
+225929.584042 [6656] [clbk] <info> [O] [334u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+225929.584042 [6656] [clbk] <info> [O] [402u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+225929.585041 [6656] [clbk] <info> [O] [334u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+225929.594035 [6656] [clbk] <info> [O] [323u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+225935.727915 [6656] [12688] <cmd> [I] <command id="get_securities" />
+225935.727915 [6656] [12688] <res> [R] <result success="true"/>
+225955.644762 [14692] [6428] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+225955.645761 [14692] [6428] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+225956.657740 [14692] [6428] <res> [R] <result success="true"/>
+225959.704865 [14692] [clbk] <info> [O] [331u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+225959.705872 [14692] [clbk] <info> [O] [392u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+225959.705872 [14692] [clbk] <info> [O] [328u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+225959.715857 [14692] [clbk] <info> [O] [324u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+230118.126105 [14692] [6428] <cmd> [I] <command id="disconnect"/>
+230118.340114 [14692] [6428] <res> [R] <result success="true"/>
+230118.341112 [14692] [clbk] <info> [O] [1184u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+230122.069007 [1340] [7372] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+230122.070007 [1340] [7372] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+230123.073213 [1340] [7372] <res> [R] <result success="true"/>
+230126.121335 [1340] [clbk] <info> [O] [345u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+230126.122332 [1340] [clbk] <info> [O] [490u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+230126.122332 [1340] [clbk] <info> [O] [443u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+230126.131327 [1340] [clbk] <info> [O] [324u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+230208.537352 [13960] [1464] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+230208.538351 [13960] [1464] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+230209.542080 [13960] [1464] <res> [R] <result success="true"/>
+230212.589208 [13960] [clbk] <info> [O] [344u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+230212.590207 [13960] [clbk] <info> [O] [401u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+230212.590207 [13960] [clbk] <info> [O] [332u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+230212.600198 [13960] [clbk] <info> [O] [318u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+230213.168670 [13960] [1464] <cmd> [I] <command id="disconnect"/>
+230213.384529 [13960] [1464] <res> [R] <result success="true"/>
+230213.384529 [13960] [clbk] <info> [O] [1070u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+230216.463247 [14680] [6764] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+230216.464246 [14680] [6764] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+230217.466689 [14680] [6764] <res> [R] <result success="true"/>
+230220.513805 [14680] [clbk] <info> [O] [363u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+230220.514805 [14680] [clbk] <info> [O] [395u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+230220.514805 [14680] [clbk] <info> [O] [332u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+230220.524799 [14680] [clbk] <info> [O] [324u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+230225.922567 [14680] [6764] <cmd> [I] <command id="get_securities" />
+230225.923573 [14680] [6764] <res> [R] <result success="true"/>
+230347.108829 [14680] [6764] <cmd> [I] <command id="disconnect"/>
+230347.314510 [14680] [6764] <res> [R] <result success="true"/>
+230347.315514 [14680] [clbk] <info> [O] [1310u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+230350.779898 [0504] [12404] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+230350.780898 [0504] [12404] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+230351.786163 [0504] [12404] <res> [R] <result success="true"/>
+230354.833322 [0504] [clbk] <info> [O] [337u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+230354.834321 [0504] [clbk] <info> [O] [402u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+230354.834321 [0504] [clbk] <info> [O] [334u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+230354.844315 [0504] [clbk] <info> [O] [331u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+230357.216995 [0504] [12404] <cmd> [I] <command id="get_securities" />
+230357.216995 [0504] [12404] <res> [R] <result success="true"/>
+230446.253464 [0504] [12404] <cmd> [I] <command id="disconnect"/>
+230446.460795 [0504] [12404] <res> [R] <result success="true"/>
+230446.461796 [0504] [clbk] <info> [O] [1242u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>
+230906.768401 [10768] [15228] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+230906.769400 [10768] [15228] <cmd> [I] 
+		<command id="connect">
+			<login>TCNN9975</login>
+			<password>*</password>
+			<host>tr1-demo5.finam.ru</host>
+			<port>3939</port>
+			<language>en</language>
+			<rqdelay>10</rqdelay>
+			<milliseconds>false</milliseconds>
+			<utc_time>true</utc_time>
+			
+		</command>
+	
+230907.773962 [10768] [15228] <res> [R] <result success="true"/>
+230910.866962 [10768] [clbk] <info> [O] [491u] <client id="virt/9975" remove="false"><market>1</market><currency>RUB</currency><type>leverage</type></client>
+230910.867963 [10768] [clbk] <info> [O] [511u] <orders><stoporder transactionid="110"><secid>26</secid><union></union><board>TQBR</board><seccode>SBER</seccode><client>virt/9975</client><buysell>S</buysell><validbefore></validbefore><author>TCNN9975</author><accepttime>30.03.2020 07:35:25</accepttime><status>watching</status><stoploss usecredit="yes"><activationprice>174.5</activationprice><quantity>100</quantity><bymarket/></stoploss><withdrawtime>0</withdrawtime></stoporder></orders>
+230910.867963 [10768] [clbk] <info> [O] [406u] <positions><money_position><client>virt/9975</client><union></union><markets><market>1</market></markets><asset>FOND_MICEX</asset><shortname>ƒÂÌ¸„Ë  ÷¡ ÃÃ¬¡ (RUR)</shortname><saldoin>300000.0</saldoin><bought>0.0</bought><sold>0.0</sold><saldo>300000.0</saldo><ordbuy>0.0</ordbuy><ordbuycond>0.0</ordbuycond><comission>0.0</comission></money_position></positions>
+230910.886073 [10768] [clbk] <info> [O] [379u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="true"/>
+230940.150130 [10768] [15228] <cmd> [I] <command id="disconnect"/>
+230940.363561 [10768] [15228] <res> [R] <result success="true"/>
+230940.364565 [10768] [clbk] <info> [O] [1359u] <server_status sys_ver="617" build="30" server_tz="Russian Standard Time" id="0" connected="false"/>

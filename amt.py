@@ -34,7 +34,7 @@ def amt(user):
 		# choice MINUS 1 due to python indexation
         if (choice-1) in range(am_portf):
 			# user->portfolios->chosen portfolio, with user's current budget (probably should be a portfolio feature)
-            portfolio_menu(user['portfolios'][portfolio_names[choice-1]], user['budget'], portfolio_names[choice-1])
+            portfolio_menu(user, user['budget'], portfolio_names[choice-1])
         elif choice == am_portf+1:
             create_portfolio(user)
         elif choice == am_portf+2:
@@ -42,22 +42,29 @@ def amt(user):
         else:
             print('Incorrect input\n')
 
-def portfolio_menu(portfolio, budget, portf_name):
+def portfolio_menu(user, budget, portf_name):
 	#---------------------------------------------------------#
 	# This function lists all assets of this portfolio, shows #
 	# key info such as expected return and risk of each asset #
 	# and the portfolio.                                      #
-	# params: portfolio - list, budget - int. portf_name - str#
+	# params: user - dict, budget - int. portf_name - str#
 	#---------------------------------------------------------#
 
 	while(True):
-		print(f'\nPortfolio {portf_name}', end='')
+		print('Loading portfolio...')
+		print(f'\nPortfolio {portf_name}\n')
 		
-		am_assets = len(portfolio)
+		portfolio = user['portfolios'][portf_name]
+		
+		am_assets = len(portfolio['assets'])
+		asset_list = [security(name) for name in portfolio['assets']]
 		
 		# show risk and return of a portfolio
 		#if am_assets > 0:
 		#	print(risk and return)
+		
+		for asset in asset_list:
+			print(f"{asset.name}")
 		
 		print()
 		
@@ -73,9 +80,17 @@ def portfolio_menu(portfolio, budget, portf_name):
 		choice = int_input()
 		
 		if choice == 1:
-			new_asset = input('Enter a ticker: ')
-			asset = security(new_asset)
-			
+			try:
+				new_asset = input('Enter a ticker: ')
+				asset = security(new_asset) # checking whether this security exists
+				portfolio['assets'].append(new_asset)
+				
+				update_user_info(user)
+				
+				del asset 
+			except ValueError:
+				print('There is no such ticker!\n')
+				
 		elif choice == 2:
 			to_delete = input('Enter the ticker you wish to delete: ')
 		elif (choice == 3) and (am_assets > 0):
@@ -94,7 +109,26 @@ def create_portfolio(user):
 
 	name = input('Enter portfolio name: ')
 	
-	user['portfolios'][name] = []
+	user['portfolios'][name] = {}
+	
+	print("Specify period for candles to cover\n")
+	
+	print("1) 1 minute")
+	print("2) 5 minutes")
+	print("3) 15 minutes")
+	print("4) 1 hour")
+	print("5) 1 day")
+	print("6) 1 week")
+	
+	period_id = int_input()
+	
+	print("Specify how many candles should be used: ")
+	am_candles = int_input()
+	
+	user['portfolios'][name]["candle_period_id"] = period_id
+	user['portfolios'][name]["am_candles"] = am_candles
+	user['portfolios'][name]["assets"] = []
+	
 	update_user_info(user)
 	
 	print('\nPortfolio successfully created!\n')

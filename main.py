@@ -36,6 +36,8 @@ while(True):
 		break
 
 while(True): # User section
+	
+
 	print('\n1) Open list of your portfolios')
 	print('2) Exit')
 	
