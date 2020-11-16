@@ -1,5 +1,6 @@
-from functions import int_input, update_user_info, send_command
+from functions import int_input, optimize, mean, var
 from security import security
+from user import user
 
 # first, list all current portfolios, created by user
 # user can chose one of his current portfolios to see new info 
@@ -9,107 +10,137 @@ from security import security
 # or let program calculate weights, which will minimize risk with regard to
 # fixed expected return.
 
+def update(func):
+	def inner(*args, **kwargs):
+		func(*args, **kwargs)
+		args[0].update_user_info()
+	
+	return inner
+
+@update
+def adding_asset(user, portfolio, asset_list):
+	new_asset = input('Enter a ticker: ')
+	asset = security(new_asset, period = portfolio['candle_period_id'], am_candles = portfolio['am_candles'])
+	portfolio['assets'].append(new_asset)
+	asset_list.append(asset)
+
+@update
+def deleting_asset(user, portfolio, asset_list):
+	to_delete = input('Enter the ticker you wish to delete: ')
+	
+	if to_delete in portfolio['assets']:
+		portfolio['assets'].remove(to_delete)
+	else:
+		raise ValueError
+		
+	for asset in asset_list:
+		if asset.name == to_delete:
+			del asset
+
 def amt(user):
 	#---------------------------------------------------------#
 	# This function is a main menu of a programm - it shows   #
 	# a list of your portfolios, allows to delete and create  #
 	# new ones.                                               #
-	# params: user - dict                                     #
+	# params: user - <class 'user'>                           #
 	#---------------------------------------------------------#
 	
     print('')
 
     while(True):
-        am_portf = len(user['portfolios'])
-        portfolio_names = list(user['portfolios'].keys())
-    
-        for i in range(am_portf):
-            print(f'{i+1}) { portfolio_names[i] }') # keys are names of portfolios
+        for i in range(user.am_portf):
+            print(f'{i+1}) { user.portfolio_names[i] }') 
             
-        print(f'{am_portf+1}) Create new portfolio')
-        print(f'{am_portf+2}) Log out')
+        print(f'{user.am_portf+1}) Create new portfolio')
+        print(f'{user.am_portf+2}) Log out')
         
         choice = int_input()
         
 		# choice MINUS 1 due to python indexation
-        if (choice-1) in range(am_portf):
-			# user->portfolios->chosen portfolio, with user's current budget (probably should be a portfolio feature)
-            portfolio_menu(user, user['budget'], portfolio_names[choice-1])
-        elif choice == am_portf+1:
+        if (choice-1) in range(user.am_portf):
+			# user->portfolios->chosen portfolio
+            portfolio_menu(user, user.portfolio_names[choice-1])
+        elif choice == user.am_portf+1:
             create_portfolio(user)
-        elif choice == am_portf+2:
+        elif choice == user.am_portf+2:
             break
         else:
             print('Incorrect input\n')
 
-def portfolio_menu(user, budget, portf_name):
+def portfolio_menu(user, portf_name):
 	#---------------------------------------------------------#
 	# This function lists all assets of this portfolio, shows #
 	# key info such as expected return and risk of each asset #
 	# and the portfolio.                                      #
-	# params: user - dict, budget - int. portf_name - str#
+	# params: user - <class 'user'>, portf_name - str         #
 	#---------------------------------------------------------#
+	print('Loading portfolio...')
+	portfolio = user.get_portfolio(portf_name)
+	asset_list = [security(name, period = portfolio['candle_period_id'], am_candles = portfolio['am_candles']) for name in portfolio['assets']]
 
 	while(True):
-		print('Loading portfolio...')
 		print(f'\nPortfolio {portf_name}\n')
 		
-		portfolio = user['portfolios'][portf_name]
-		
 		am_assets = len(portfolio['assets'])
-		asset_list = [security(name) for name in portfolio['assets']]
 		
-		# show risk and return of a portfolio
-		#if am_assets > 0:
-		#	print(risk and return)
+		if asset_list[0].weight is not None:
+			print(f'Portfolio Exp. Ret.={mean(asset_list):.6f} Exp. Risk={var(asset_list):.6f}\n')
 		
 		for asset in asset_list:
-			print(f"{asset.name}")
+			if asset.weight is None:
+				print("n.w. ", end='')
+			else:
+				print(f'{asset.weight:.6f}', end=' ')
+		
+			print(f"{asset.name} Exp. Ret.={asset.exp_ret:.6f} Exp. Risk={asset.exp_risk:.6f}")
 		
 		print()
 		
 		print('1) Add assets')
-		print('2) Delete assets')
 		if am_assets > 0:
+			print('2) Delete assets')
 			print('3) Optimize portfolio weights')
-			print('4) Assign weights manually')
-			print('5) Return to portfolio menu')
+			print('4) Return to portfolio menu')
 		else:
-			print('3) Return to portfolio menu')
+			print('2) Return to portfolio menu')
 		
 		choice = int_input()
 		
 		if choice == 1:
 			try:
-				new_asset = input('Enter a ticker: ')
-				asset = security(new_asset) # checking whether this security exists
-				portfolio['assets'].append(new_asset)
-				
-				update_user_info(user)
-				
-				del asset 
+				adding_asset(user, portfolio, asset_list)
 			except ValueError:
-				print('There is no such ticker!\n')
+				print('There is no such ticker!\n')		
 				
-		elif choice == 2:
-			to_delete = input('Enter the ticker you wish to delete: ')
+		elif (choice == 2) and (am_assets == 0):
+			break
+			
+		elif (choice == 2) and (am_assets > 0):
+			try:
+				deleting_asset(user, portfolio, asset_list)
+			except ValueError:
+				print("There is no such ticker in your portfolio!")	
+				
 		elif (choice == 3) and (am_assets > 0):
-			print('optimize')
-		elif (choice == 3) and (am_assets == 0):
-			break
+			ret = float(input("Type desired return: "))
+		
+			optimize(asset_list, ret)
+		
 		elif (choice == 4) and (am_assets > 0):
-			print('manual')
-		elif (choice == 5) and (am_assets > 0):
 			break
+				
 		else:
 			print('Incorrect input')
-    
+   
+@update
 def create_portfolio(user):
 	print('\nCreating portfolio\n')
 
 	name = input('Enter portfolio name: ')
 	
-	user['portfolios'][name] = {}
+	user.user_info['portfolios'][name] = {}
+	
+	portfolio = user.get_portfolio(name)
 	
 	print("Specify period for candles to cover\n")
 	
@@ -125,11 +156,9 @@ def create_portfolio(user):
 	print("Specify how many candles should be used: ")
 	am_candles = int_input()
 	
-	user['portfolios'][name]["candle_period_id"] = period_id
-	user['portfolios'][name]["am_candles"] = am_candles
-	user['portfolios'][name]["assets"] = []
-	
-	update_user_info(user)
+	portfolio["candle_period_id"] = period_id
+	portfolio["am_candles"] = am_candles
+	portfolio["assets"] = []
 	
 	print('\nPortfolio successfully created!\n')
 	

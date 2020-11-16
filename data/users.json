@@ -4,11 +4,39 @@
     "last_name": "postnov",
     "portfolios": {
       "polina": {
-		"candle_period_id":4
-		"am_candles":10
-		"assets":[]
-	  }
-    },
-    "budget": 20000
+        "candle_period_id": 4,
+        "am_candles": 10,
+        "assets": [
+          "SBER",
+          "LNTA",
+          "AAPL-RM"
+        ]
+      },
+      "sergey": {
+        "candle_period_id": 2,
+        "am_candles": 10,
+        "assets": [
+          "LNTA",
+          "SBER"
+        ]
+      },
+      "test": {
+        "candle_period_id": 5,
+        "am_candles": 30,
+        "assets": [
+          "LNTA",
+          "SBER",
+          "GAZP"
+        ]
+      },
+      "test2": {
+        "candle_period_id": 5,
+        "am_candles": 90,
+        "assets": [
+          "GAZP",
+          "LNTA"
+        ]
+      }
+    }
   }
 }
